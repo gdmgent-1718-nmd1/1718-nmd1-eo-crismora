@@ -18,9 +18,20 @@ img {
 body{
     text-align: center;
 }
-p{
-    padding-left: 15px;
 
+
+/* Introductie */
+
+.introcontext{
+    padding-top:25px;
+    margin-left:25%;
+    margin-right:25%;
 }
+
+.introcontext > p{
+    font-size: 14px;
+}
+
+
 
 /* Voeg jouw css hieraan toe */
