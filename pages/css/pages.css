@@ -15,4 +15,12 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
+body{
+    text-align: center;
+}
+p{
+    padding-left: 15px;
+
+}
+
 /* Voeg jouw css hieraan toe */
