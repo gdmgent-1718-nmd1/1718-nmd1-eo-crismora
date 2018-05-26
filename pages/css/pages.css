@@ -35,5 +35,20 @@ img {
     text-align:center;
 }
 
+.introcontext > h2{
+    padding :5px 10px 10px 0px;
+    color: hsla(175, 60%, 60%, 1);
+    text-align:left;
+}
+
+.introcontext > p > a{
+    text-decoration: none;
+    color:red;
+
+}
+.introcontext > p > a:hover{
+    color:hsla(175, 60%, 60%, 1);
+}
+
 
 /* Voeg jouw css hieraan toe */
