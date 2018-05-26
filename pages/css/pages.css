@@ -50,5 +50,28 @@ img {
     color:hsla(175, 60%, 60%, 1);
 }
 
+/* Scenario's*/
+
+.scenario{
+    padding-top:25px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.scenario h1{
+    padding: 10px 10px 12px 0px;
+    background-color:hsla(175, 60%, 60%, 1);
+    text-align:center;
+}
+
+.scenario h2{
+    color:hsla(175, 60%, 60%, 1);
+    padding-top:7px;
+}
+
+.scenario p{
+    font-size:15px;
+    padding-top:5px;
+}
 
 /* Voeg jouw css hieraan toe */
