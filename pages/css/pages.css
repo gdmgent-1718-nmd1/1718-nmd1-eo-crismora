@@ -99,7 +99,7 @@ body {
     width:1110px;
 }
 
-.nav, .container1, .container2, .castmembers {
+.nav, .container1, .container2, .castmembers, .social, .castmembers {
     width:1115px;
     margin:auto;
 }
@@ -174,9 +174,10 @@ nav a:hover{
 }
 
 .social{
-    margin:auto;
-    margin-top:15px;
     
+    margin:auto;
+    margin-top:30px;
+    clear:both;
     text-align:center;
     margin-bottom:20px;
     
@@ -245,6 +246,9 @@ overflow: hidden;
 .container2 img{
     float:right;
     margin-left: 35px;
+    margin-top:33px;
+    height:483px;
+    width:310px;
 }
 
 .container2 p{
@@ -255,26 +259,42 @@ overflow: hidden;
     color:dimgrey;
 }
 .castmembers{
+    margin-top:25px;
+    text-align:center;
+
+   
+    
 
 }
 .cast{
-    margin-right:85px;
+    margin-right:50px;
     float:left;
     text-align:center;
+    width:200px;
 
+}
+.castfirst{
+    margin-left:85px;
 }
 
 .cast img{
     float:left;
     height:200px;
     width:200px;
+    margin-right:25px;
+    transition: 0.3s;
+}
+
+.cast img:hover{
+    opacity: 0.6;
+    
 }
 
 .cast p{
     font-family:'Hind', sans-serif;
     font-size: 15px;
     line-height: 18px;
-    color:lightgrey;
+    color:dimgrey;
     padding-top:20px;
 }
 
