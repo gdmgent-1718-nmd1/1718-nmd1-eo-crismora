@@ -240,7 +240,7 @@ overflow: hidden;
     font-size: 50px;
     background-color:#1A0F84;
     color:white;
-    display:block;
+    display:inline-block;
 }
 
 .container2 img{
