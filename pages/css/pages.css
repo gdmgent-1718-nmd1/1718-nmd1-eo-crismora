@@ -99,7 +99,7 @@ body {
     width:1110px;
 }
 
-.nav, .container1, .container2 {
+.nav, .container1, .container2, .castmembers {
     width:1115px;
     margin:auto;
 }
@@ -244,12 +244,41 @@ overflow: hidden;
 
 .container2 img{
     float:right;
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
 .container2 p{
-    padding: 20px 50px 20px 90px;
+    padding: 0px 65px 20px 85px;
     font-family:'Hind', sans-serif;
     font-size: 20px;
     line-height: 34px;
+    color:dimgrey;
+}
+.castmembers{
+
+}
+.cast{
+    margin-right:85px;
+    float:left;
+    text-align:center;
+
+}
+
+.cast img{
+    float:left;
+    height:200px;
+    width:200px;
+}
+
+.cast p{
+    font-family:'Hind', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color:lightgrey;
+    padding-top:20px;
+}
+
+.cast strong{
+    font-weight:bold;
+    color:#1A0F84;
 }
