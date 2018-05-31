@@ -365,6 +365,12 @@ overflow: hidden;
 
 /* Tickets Page */
 
+.container3{
+    margin:auto;
+    margin-top:40px;
+    width:800px;
+}
+
 .logotickets img {
     
     padding-top:13px;
@@ -383,7 +389,7 @@ overflow: hidden;
     font-weight:bolder;
     transition: 0.3s;
     display:inline-block;
-    padding:30px 55px;
+    padding:36px 55px;
     margin:15px 35px;
   }
 
@@ -393,7 +399,8 @@ overflow: hidden;
      border:none;
 }
 
-.logotickets h1{  display:inline-block;
+.logotickets h1{  
+    display:inline-block;
     text-decoration: none;
      background-color:white;
      color:#1A0F84;
@@ -404,4 +411,51 @@ overflow: hidden;
     display:inline-block;
     padding:30px 55px;
     margin:15px 35px;
+}
+
+.details{
+    margin-top:25px;
+}
+
+input{
+    margin:15px 10px 10px 25px;
+}
+
+select{
+    margin-right:35px;
+    margin-left:35px;
+    padding:25px;
+    background-color:#1A0F84;
+    color:white;
+    font-size:20px;
+
+}
+
+.buy{
+    width:600px;
+    float:left;
+    margin-right:15px;
+}
+
+.information{
+    width:160px;
+    float:left;
+    border-left: solid 3px dimgrey;
+    padding-left:15px;
+}
+
+.information h1{
+    padding:10px 0px 0px 10px;
+    font-weight:bold;
+    font-size: 25px;
+    background-color:none;
+    color:#1A0F84;
+}
+
+.information p{
+    padding:0px 10px 10px 35px;
+    line-height: 32px;
+    font-family:'Hind', sans-serif;
+    font-size: 22px;
+    color:dimgrey;
 }
