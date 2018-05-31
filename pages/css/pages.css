@@ -320,8 +320,45 @@ overflow: hidden;
 
 /* Cast Page */
 
-.container2 h1{
-    padding:25px 25px 35px 25px;
+.containercast h1{
+    padding:0px 25px 35px 25px;
     font-weight:bold;
-    font-size: 50px;
+    font-size: 35px;
     color:#1A0F84;
+}
+
+
+.member{
+    float:left;
+    margin-left:25px;
+    margin-top:50px;
+    
+}
+
+.firstmember{
+    margin-top:20px;
+}
+.member img{
+    float:left;
+    width:400px;
+    height:400px;
+    padding:0px 35px 0px 0px;
+}
+
+.member h2{
+    padding-left:35px;
+    font-family:'Hind', sans-serif;
+    font-weight:bold;
+    font-size:30px;
+    
+    margin-top:0px;
+}
+
+.member p{
+    padding:0px 10px 10px 35px;
+    line-height: 32px;
+    font-family:'Hind', sans-serif;
+    font-size: 22px;
+    color:dimgrey;
+    
+}
