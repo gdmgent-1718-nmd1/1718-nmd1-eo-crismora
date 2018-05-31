@@ -459,3 +459,64 @@ select{
     font-size: 22px;
     color:dimgrey;
 }
+
+
+
+/* Reviews Page */
+
+.container4{
+    
+    
+    margin:auto;
+    margin-top:65px;
+    text-align:center;
+    width:1110px;
+    overflow: hidden;
+    margin-bottom:25px;
+}
+
+.container4 input:hover{
+     color:#1A0F84;
+    background-color:hsla(175, 60%, 60%, 1);
+}
+
+.submit{
+    background-color:#1A0F84;
+    color:white;
+    font-family: 'Hind', sans-serif;
+    padding:25px 45px;
+    font-weight: bold;
+    margin:8px;
+}
+
+textarea{
+    width:1000px;
+    height:450px;
+    
+}
+
+.reviews{
+    text-align:center;
+    width:1110px;
+    margin:auto;
+    margin-top:40px;
+    padding-top:15px;
+}
+
+.reviews h1{
+    color:hsla(175, 60%, 60%, 1);
+    line-height: 40px;
+    font-size:35px;
+    font-family: 'Hind', sans-serif;
+    padding:20px;
+}
+
+.reviews p{
+     font-family:'Hind', sans-serif;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.note{
+color:dimgrey;
+}
