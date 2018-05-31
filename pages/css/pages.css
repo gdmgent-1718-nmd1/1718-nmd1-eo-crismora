@@ -374,7 +374,7 @@ overflow: hidden;
 .logotickets img {
     
     padding-top:13px;
-    width:1110px;
+    width:950px;
     float:right;
     padding-right:35px;
 }
@@ -389,8 +389,8 @@ overflow: hidden;
     font-weight:bolder;
     transition: 0.3s;
     display:inline-block;
-    padding:36px 55px;
-    margin:15px 35px;
+    padding:15px 35px;
+    
   }
 
 .logotickets a:hover{
@@ -409,8 +409,8 @@ overflow: hidden;
     font-weight:bolder;
     transition: 0.3s;
     display:inline-block;
-    padding:30px 55px;
-    margin:15px 35px;
+    padding:15px 35px;
+    
 }
 
 .details{
@@ -519,4 +519,78 @@ textarea{
 
 .note{
 color:dimgrey;
+}
+
+/* Tour Page */
+
+
+.container5{
+    width:1112px;
+    margin:auto;
+    margin-top:100px;
+
+}
+
+td a{
+    font-family:'Hind', sans-serif;
+    font-size: 30px;
+    text-decoration:none;
+    color:white;
+    padding: 15px 15px;
+}
+
+td a:hover{
+    background-color:white;
+    color:#1A0F84;
+    font-weight:bold;
+}
+
+
+table.blueTable {
+  background-color: #1A0F84;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  height:200px;
+}
+table.blueTable td, table.blueTable th {
+  padding: 15px 30px;
+ 
+}
+
+table.blueTable tbody tr{
+margin-top:15px;
+  margin-bottom:10px;
+
+
+}
+table.blueTable tbody td {
+  font-size: 30px;
+  padding-top:30px;
+  padding-bottom:30px;
+  font-family:'Hind', sans-serif;
+  color:white;
+}
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
 }
